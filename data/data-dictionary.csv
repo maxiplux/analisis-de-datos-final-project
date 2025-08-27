@@ -1,0 +1,18 @@
+Variable Name,Role,Type,Description,Units
+age,Feature,Numeric,Client's age.,(not specified)
+job,Feature,Categorical,"Type of job: ""admin."",""unknown"",""unemployed"",""management"",""housemaid"",""entrepreneur"",""student"", ""blue-collar"",""self-employed"",""retired"",""technician"",""services"".",(not specified)
+marital,Feature,Categorical,"Marital status: ""married"",""divorced"",""single"". Note: ""divorced"" includes widowed.",(not specified)
+education,Feature,Categorical,"Education level: ""unknown"",""secondary"",""primary"",""tertiary"".",(not specified)
+default,Feature,Binary,"Has credit in default?: ""yes"" or ""no"".",(not specified)
+balance,Feature,Numeric,Average yearly balance.,euros
+housing,Feature,Binary,"Has a housing loan?: ""yes"" or ""no"".",(not specified)
+loan,Feature,Binary,"Has a personal loan?: ""yes"" or ""no"".",(not specified)
+contact,Feature,Categorical,"Contact communication type: ""unknown"",""telephone"",""cellular"".",(not specified)
+day,Feature,Numeric,Last contact day of the month.,(not specified)
+month,Feature,Categorical,"Last contact month of the year: ""jan"", ""feb"", ""mar"", ..., ""nov"", ""dec"".",(not specified)
+duration,Feature,Numeric,Last contact duration.,seconds
+campaign,Feature,Numeric,Number of contacts performed during this campaign for this client.,(not specified)
+pdays,Feature,Numeric,Days since client was last contacted from a previous campaign (-1 means not previously contacted).,(not specified)
+previous,Feature,Numeric,Number of contacts performed before this campaign for this client.,(not specified)
+poutcome,Feature,Categorical,"Outcome of the previous marketing campaign: ""unknown"",""other"",""failure"",""success"".",(not specified)
+y,Target,Binary,"Has the client subscribed to a term deposit?: ""yes"" or ""no"".",(not specified)
