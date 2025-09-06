@@ -181,12 +181,8 @@ y = df_prep['y'].map({'no': 0, 'yes': 1})
 - **Escalabilidad**: El pipeline diseñado es eficiente para el volumen de datos y puede adaptarse a nuevos datos
 - **Interpretabilidad**: Las transformaciones mantienen la interpretabilidad del modelo, crucial para decisiones de negocio
 
-### 5. Recomendaciones para Implementación
-- **Estrategia de validación**: Implementar validación temporal dado que los datos están ordenados por fecha
-- **Monitoreo de drift**: Establecer monitoreo de las variables económicas que pueden cambiar significativamente
-- **Segmentación**: Considerar modelos específicos por grupos demográficos dados los patrones diferenciados encontrados
 
-### 6. Limitaciones Identificadas
+### 5. Limitaciones Identificadas
 - **Sesgo temporal**: Los datos cubren un período específico (2008-2010) que incluye la crisis financiera
 - **Generalización**: Los patrones encontrados son específicos del contexto portugués y bancario
 - **Variables no disponibles**: Información sobre ingresos del cliente o historial crediticio completo podría mejorar las predicciones
