@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f921a8-d353-4e20-a229-911fc3a4a643" name="Changes" comment="Add initial project setup with data dictionary, tests, and requirements.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Juan-Mosquera-Project.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Juan-Mosquera-Project.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requeriments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeriments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -166,6 +168,11 @@
       <workItem from="1756410342162" duration="2798000" />
       <workItem from="1756497480434" duration="764000" />
       <workItem from="1756609786794" duration="1960000" />
+      <workItem from="1756944742708" duration="10185000" />
+      <workItem from="1757008600342" duration="21589000" />
+      <workItem from="1757096728061" duration="6040000" />
+      <workItem from="1757113938263" duration="152000" />
+      <workItem from="1757115553559" duration="4143000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup with data dictionary, tests, and requirements.">
       <option name="closed" value="true" />
@@ -190,7 +197,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/Juan-Mosquera-Project.ipynb</url>
-          <line>316</line>
+          <line>333</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
